@@ -11,7 +11,7 @@ function Detail() {
         if (Object.keys(router.query).length > 0) {
             ; (async () => {
                 setIsLoading(true);
-                const res = await fetch(`http://json-serve-hihi.herokuapp.com/api/v1/movies/${router.query?.id}`);
+                const res = await fetch(`https://json-serve-hihi.herokuapp.com/api/v1/movies/${router.query?.id}`);
                 const data = await res.json();
                 setMovie(data);
                 setIsLoading(false);
