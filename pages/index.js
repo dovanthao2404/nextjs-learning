@@ -48,7 +48,6 @@ function Home(props) {
 export async function getStaticProps() {
   const res = await fetch('http://json-serve-hihi.herokuapp.com/api/v1/movies/');
   const cineplex = await res.json();
-
   return {
     props: {
       cineplex,
