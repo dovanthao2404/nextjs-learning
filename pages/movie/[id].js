@@ -10,7 +10,7 @@ function Detail(props) {
             <>
                 <title>Booking Movie</title>
                 <meta name="description" content={props.data?.name} />
-                <meta content={`${props.data.name}`} name="keywords" />
+                <meta content={`shibaalibaba${props.data.name}`} name="keywords" />
                 <meta property="og:image" content={props.data?.poster} />
             </>
         }>
