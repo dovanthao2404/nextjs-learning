@@ -15,6 +15,7 @@ function Detail(props) {
             </>
         }>
             <div>[id]</div>
+            hihihihi
             <Link as={`/`} href="/">Home</Link>
         </Layout>
     );
